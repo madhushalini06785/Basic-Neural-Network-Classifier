@@ -1,0 +1,20 @@
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Model files
+*.h5
+*.keras
+*.pkl
+
+# OS-specific files
+.DS_Store
+
+# Virtual environments
+venv/
+.env/
+
+Add .gitignore to ignore model files and temp folders
