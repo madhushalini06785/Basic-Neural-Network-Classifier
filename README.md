@@ -1,6 +1,7 @@
 MNIST Handwritten Digit Classification with Keras
 This project demonstrates a simple deep learning model built using Tensorflow and Keras to classify digits from the dataset.The model is trained on 28x28 images of digits(0-9) and uses a basic neural network architecture to recognize the digits with good accuracy.
-##Dataset
+
+## Dataset
 The project uses the "MNIST dataset",which is actually loaded using:
 from tensorflow.keras.datasets import mnist
 
