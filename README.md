@@ -32,6 +32,9 @@ The trained model is saved in the Keras format:
 ## Sample Visualization
 Displays a sample input image and its corresponding label:
 
+## License
+This project is licensed under the MIT License.
+
 ## Requirements
 Python 3.7+
 TensorFlow
