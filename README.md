@@ -33,11 +33,29 @@ The trained model is saved in the Keras format:
 ## Sample Visualization
 Displays a sample input image and its corresponding label:
 
-## License
-This project is licensed under the MIT License.
-
 ## Requirements
 Python 3.7+
 TensorFlow
 Numpy
 Matplotlib
+
+## Notes
+The dataset is normalized by dividing pixel values by 255.
+Labels are one-hot encoded using to_categorical().
+The model uses a very small hidden layer (5 neurons) for demonstration purposes. You can increase it to improve performance.
+
+## output
+sample output
+Epoch 1/5
+1875/1875 - 5s - 3ms/step - accuracy: 0.7444 - loss: 0.8175
+Epoch 2/5
+1875/1875 - 3s - 2ms/step - accuracy: 0.8489 - loss: 0.5202
+Epoch 3/5
+1875/1875 - 3s - 2ms/step - accuracy: 0.8643 - loss: 0.4709
+Epoch 4/5
+1875/1875 - 4s - 2ms/step - accuracy: 0.8742 - loss: 0.4406
+Epoch 5/5
+1875/1875 - 5s - 3ms/step - accuracy: 0.8783 - loss: 0.4228
+
+## License
+This project is licensed under the MIT License.
